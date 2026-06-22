@@ -1,0 +1,22 @@
+.tile{
+    display: inline-block;
+    position: relative;
+    top: 10px;
+    left: 60px;
+}
+#tile-holder{
+    position: absolute;
+    object-fit: fill;
+    height: 110px;
+    width: 700px;
+}
+#div-holder{
+    display: block;
+    align-items: center;
+    text-align: center;
+    float: center;
+}
+.tile img{
+    width: 80px;
+    height: 80px;
+}

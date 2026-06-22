@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+
+<!--
+File: index.html
+HW4 - Scrabble
+Riley Stevens, UMass Lowell Computer Science, riley_stevens@student.uml.edu
+Copyright (c) 2026 by Riley. All rights reserved. May be freely copied or
+excerpted for educational purposes with credit to the author.
+updated by RS on Jun 22, 2026 at 1:32 PM
+-->
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <!--   Stylesheet   -->
+    <link rel="stylesheet" href="css/jquery-ui.css">
+    <link rel="stylesheet" href="css/styles.css">
+
+    <!--   jQuery scripts go first so i can use their functions in my js script-->
+
+    <!--   jQuery -- https://jquery.com/download/ -->
+    <script language="JavaScript" type="text/javascript" src="js/jquery-4.0.0.min.js"></script>
+
+    <!--   jQuery  Validation -- https://github.com/jquery-validation/jquery-validation/releases/tag/1.19.5 -->
+    <script language="JavaScript" type="text/javascript" src="js/jquery.validate.js"></script>
+
+    <!--   jQuery  Validation Additions -->
+    <script language="JavaScript" type="text/javascript" src="js/additional-methods.js"></script>
+
+    <!--   jQuery UI -- https://jqueryui.com/download -->
+    <script language="JavaScript" type="text/javascript" src="js/jquery-ui.min.js"></script>
+
+    <!--   Scrabble Pieces data structure -- as given from the graphic_data.zip -->
+    <script language="JavaScript" type="text/javascript" src="js/Scrabble_Pieces_AssociativeArray_Jesse.js"></script>
+
+    <!--   Javascript   -->
+    <script language="JavaScript" type="text/javascript" src="js/scrabble.js"></script>
+
+    <!--   Title   -->
+    <title>Scrabble</title>
+</head>
+
+<body>
+    <h1> One-line scrabble </h1>
+    <p>
+        To play a tile, click and drag to the spot on the line where you want to play it.
+    </p>
+    <img src="images/Scrabble_Board_OneLine.png" id="one-line" alt="Failed to load one-line board">
+
+    <div id="div-holder">
+
+        <img src="images/scrabble-tile-holder-406774_640.png" id="tile-holder" alt="Failed to load tile holder">
+    </div>
+
+
+
+</body>
+
+</html>

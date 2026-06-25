@@ -1,22 +1,50 @@
+#one-line-div div.tile, #full-board-div div.tile{
+    position: relative;
+    
+}
+#one-line-img #full-board-img{
+    position: absolute;
+    object-fit: fill;
+    width: max-content;
+}
 .tile{
     display: inline-block;
     position: relative;
-    top: 10px;
-    left: 60px;
 }
-#tile-holder{
+
+#holder-img{
+    margin: auto;
+    display: block;
     position: absolute;
+    left: 25%;
+    top: 200px; 
     object-fit: fill;
+      
     height: 110px;
     width: 700px;
 }
-#div-holder{
-    display: block;
+#holder-div{
+    display: block;  
     align-items: center;
     text-align: center;
+
     float: center;
 }
+
+.tile img, td{
+    width: 65px;
+    height: 72px;
+}
 .tile img{
-    width: 80px;
-    height: 80px;
+    object-fit: contain;
+}
+table{
+    position: relative;
+    top: -1340px;
+    left : 200px;
+}
+td{
+
+    border: 3px solid black;
+
 }

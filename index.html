@@ -6,7 +6,8 @@ HW4 - Scrabble
 Riley Stevens, UMass Lowell Computer Science, riley_stevens@student.uml.edu
 Copyright (c) 2026 by Riley. All rights reserved. May be freely copied or
 excerpted for educational purposes with credit to the author.
-updated by RS on Jun 22, 2026 at 1:32 PM
+created by RS on Jun 22, 2026 at 1:32 PM
+updated by RS on Jun 27, 2026 at 11:08 PM
 -->
 
 <html lang="en">
@@ -56,10 +57,19 @@ updated by RS on Jun 22, 2026 at 1:32 PM
     <div id="holder-div">
 
         <img src="images/scrabble-tile-holder-406774_640.png" id="holder-img" alt="Failed to load tile holder">
-        <button id="submit-word">Submit Word</button>
-        <p id="point-value"> Word point value :</p>
+        
     </div>
-
+    <div>
+        <button id="restart">Restart</button>
+        <button id="submit-word">Submit Word</button>
+        <p > Word point value :<span id="point-value"></span></p>
+        <p > Current Word : <span id="current-word"></span></p>
+        <p>Word history</p>
+        <ol id="word-history">
+            
+        </ol>
+        <p>Total Score: <span id="score-holder"></span></p>
+    </div>
 
 
 </body>

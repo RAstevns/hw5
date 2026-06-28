@@ -6,6 +6,7 @@
     position: absolute;
     object-fit: fill;
     width: max-content;
+    z-index: 0;
 }
 #one-line-img{
     width: 1130px
@@ -46,32 +47,18 @@
 }
 table{
     position: relative;
-
 }
 td{
     margin: 0px;
     border-spacing: 3px;
-
     border: 3px solid rgb(0, 0, 0);
+}
+.ui-droppable-hover{
+    border-color: red;
 }
 td .tile img{
     display: block;
     position: absolute;
     top: 50px;
-    z-index: 1;
-}
-.triple-word{
-    background-color: aqua;
-}
-.triple-letter{
-    background-color: blueviolet;
-}
-.double-word{
-    background-color: brown;
-}
-.double-letter{
-    background-color: chocolate;
-}
-#center{
-    background-color: azure;
+    
 }

@@ -43,6 +43,8 @@ var state = 'unset';
 
 $.get('/usr/share/dict/words', function (string) {
     words = string;
+    console.log(string);
+    
 }, 'text');
 // Init 
 $(document).ready(function () {

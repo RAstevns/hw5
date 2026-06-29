@@ -43,8 +43,6 @@ var state = 'unset';
  
 $.get('words', function (string) {
     words = string;
-    console.log(string);
-    
 }, 'text');
 // Init 
 $(document).ready(function () {

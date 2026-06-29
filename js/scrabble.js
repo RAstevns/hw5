@@ -41,7 +41,7 @@ var currentpointvalue = 0;
 var multiplier = 1;
 var state = 'unset';
  
-$.get('words', function (string) {
+$.get('words.txt', function (string) {
     words = string;
 }, 'text');
 // Init 

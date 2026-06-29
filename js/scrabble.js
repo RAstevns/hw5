@@ -41,7 +41,7 @@ var currentpointvalue = 0;
 var multiplier = 1;
 var state = 'unset';
 
-$.get('/usr/share/dict/words', function (string) {
+$.get('words', function (string) {
     words = string;
     console.log(string);
     

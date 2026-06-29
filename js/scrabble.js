@@ -40,7 +40,7 @@ var totalscore = 0;
 var currentpointvalue = 0;
 var multiplier = 1;
 var state = 'unset';
-
+ 
 $.get('words', function (string) {
     words = string;
     console.log(string);
